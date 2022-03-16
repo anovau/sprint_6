@@ -1,9 +1,16 @@
+import { TextContent } from "../../styled";  
+
 export const Escena = (props) => {
   return (
-    <>
+    <> 
+    
       {props.text.map((frase) => (
-        <p>{frase}</p>
+        <TextContent>{frase}</TextContent> 
       ))}
+      
     </>
   );
 };
+
+
+
