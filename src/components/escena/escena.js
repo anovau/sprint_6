@@ -1,16 +1,12 @@
-import { TextContent } from "../../styled";  
 
-export const Escena = (props) => {
+
+/* export const Escena = ({ text, active }) => {
   return (
-    <> 
-    
-      {props.text.map((frase) => (
-        <TextContent>{frase}</TextContent> 
-      ))}
-      
+    <>
+      {text.map((frase) =>
+        i == key ? (<TextContent key={data.index} className={"pink"}>{frase}</TextContent>) : (<TextContent key={data.index}>{frase} </TextContent>)
+      )}
     </>
   );
 };
-
-
-
+ */
